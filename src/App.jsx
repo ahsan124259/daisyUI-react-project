@@ -2,13 +2,15 @@
 import './App.css'
 import DaisyNav from './components/DaisyNav/DaisyNav'
 import FormPage from './components/FormPage'
+import Navbar from './components/Navbar/Navbar'
 
 function App() {
   
   return (
     <>
-      <DaisyNav></DaisyNav>
-      <FormPage></FormPage>
+    <Navbar></Navbar>
+      {/* <DaisyNav></DaisyNav> */}
+      {/* <FormPage></FormPage> */}
      
     </>
   )
